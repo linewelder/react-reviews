@@ -10,6 +10,12 @@
     animation: 200ms slidein;
 }
 
+@media (max-width: 500px) {
+    .CreateReviewDialog {
+        width: 100%;
+    }
+}
+
 .CreateReviewDialog-backdrop {
     position: fixed;
     overflow: scroll;
