@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif;
+
+    --accent-color: rgb(108, 42, 108);
+}
+
+body {
+    background-color: #ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+    color: var(--accent-color);
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 12pt;
+
+    border: 0;
+    border-bottom: 1px var(--accent-color) solid;
+    padding: 2px;
+}
+
+input:focus {
+    border: 0;
+    border-bottom: 2px black solid;
+}
+
+textarea {
+    font-family: sans-serif;
+    font-size: 12pt;
+
+    width: 100%;
+    resize: vertical;
+    border: 1px var(--accent-color) solid;
+    padding: 4px;
+}
+
+button {
+    display: block;
+    padding: 8px 16px;
+    cursor: pointer;
+    background: var(--accent-color);
+    border: 1px var(--accent-color) solid;
+    border-radius: 3px;
+    color: white;
+}
+
+button:hover {
+    background: none;
+    color: var(--accent-color);
+}
+
+.error {
+    font-size: 10pt;
+    color: rgb(181, 35, 35);
+}
+
+.spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px var(--accent-color) dotted;
+    border-radius: 16px;
+    animation: 4s infinite linear spinning;
+}
+
+@keyframes spinning {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
+
+@keyframes slidein {
+    from {
+        translate: 0 32px;
+        opacity: 0;
+    }
+
+    to {
+        translate: 0 0;
+        opacity: 1;
+    }
+}
+
+@keyframes shake {
+    from {
+        translate: 3px 0;
+    }
+
+    33% {
+        translate: -3px 0;
+    }
+
+    67% {
+        translate: 1px 0;
+    }
+
+    to {
+        translate: 0 0;
+    }
+}

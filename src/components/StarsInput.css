@@ -1,0 +1,7 @@
+.StarsInput {
+    cursor: pointer;
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(218, 189, 20);
+    user-select: none;
+}

@@ -1,0 +1,11 @@
+.ReviewView {
+    padding: 16px;
+    border-bottom: 1px lightgrey solid;
+}
+
+.ReviewView .top-row {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,17 @@
+h1 {
+    margin-bottom: 8px;
+}
+
+.container {
+    margin: auto;
+    max-width: 600px;
+    min-height: 100vh;
+    padding: 32px;
+    background-color: white;
+}
+
+.no-reviews {
+    text-align: center;
+    color: grey;
+    margin-top: 24px;
+}

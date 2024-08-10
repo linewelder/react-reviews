@@ -1,0 +1,51 @@
+.CreateReviewDialog {
+    width: 500px;
+    margin: 48px auto;
+
+    background: white;
+    border-radius: 4px;
+    padding: 16px;
+    padding-top: 24px;
+
+    animation: 200ms slidein;
+}
+
+.CreateReviewDialog-backdrop {
+    position: fixed;
+    overflow: scroll;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.CreateReviewDialog h2 {
+    margin-bottom: 4px;
+}
+
+.CreateReviewDialog .top-row {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.CreateReviewDialog textarea {
+    margin-bottom: 8px;
+}
+
+.CreateReviewDialog .buttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 3px;
+}
+
+.CreateReviewDialog .error {
+    animation: 200ms shake;
+}
+
+.CreateReviewDialog .spinner {
+    margin-right: 24px;
+}
