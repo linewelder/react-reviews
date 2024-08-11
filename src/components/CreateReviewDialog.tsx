@@ -92,7 +92,7 @@ export default function CreateReviewDialog({ open, onClose } : CreateReviewDialo
                             value={review.stars} onChanged={handleStarsChange} />
                     </div>
 
-                    <textarea id="comment" placeholder="Leave a comment..."
+                    <textarea id="comment" placeholder="Leave a comment..." rows={6}
                         value={review.comment ?? ''} onChange={handleCommentChange} />
 
                     <div className="buttons">
